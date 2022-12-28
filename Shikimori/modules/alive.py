@@ -51,19 +51,15 @@ def awake(update: Update, context: CallbackContext):
     TEXT = f"""
     <b>Hi <a href="tg://user?id={user.id}">{first_name}</a>, I'm {bot_name} .
 
-✨ I am ʀɪᴋᴋᴀ ᴛᴀᴋᴀɴᴀꜱʜɪ
-✨ ɪ ᴀᴍ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴀꜱ ᴀʟᴡᴀʏꜱ
+✨ I am Power
+🍀 I am Working Fine as always
 
-⚡ᴍʏ ᴏᴡɴᴇʀꜱ : @Ath2023 ᴀɴᴅ: <a href="https://t.me/{OWNER_USERNAME}">{OWNER_USERNAME}</a></b>
-   
+🧚‍♂️ Bot version: Shikimori stable V3
+👑 My Owner: <a href="https://t.me/{OWNER_USERNAME}">{OWNER_USERNAME}</a></b>
+🐍 Python-Telegram-Bot:13.10
 
  """
-    if NETWORK:
-        TEXT = TEXT + f'\n⚪ <b>I am Powered by : <a href="https://t.me/{NETWORK_USERNAME}">{NETWORK}</a>\n\n' + 'Thanks For using me</b>'
-    
-    else:
-        TEXT = TEXT + "\n<b>ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ</b>"
-
+   
     try:
         if alive_id in ("jpeg", "jpg", "png"):
             message.reply_photo(ALIVE_MEDIA, caption=TEXT, reply_markup=InlineKeyboardMarkup(buttons),parse_mode=ParseMode.HTML)
