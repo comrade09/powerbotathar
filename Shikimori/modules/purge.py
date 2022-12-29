@@ -102,7 +102,7 @@ async def delete_messages(event):
     del_message = [message, event.message]
     await event.client.delete_messages(chat, del_message)
 
-PURGE_HANDLER = purge_messages, events.NewMessage(pattern="^[!/]purge$")
+PURGE_HANDLER = purge_messages, events.NewMessage(pattern="^[!/]spurge$")
 DEL_HANDLER = delete_messages, events.NewMessage(pattern="^[!/]del$")
 
 telethn.add_event_handler(*PURGE_HANDLER)
