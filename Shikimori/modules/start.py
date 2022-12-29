@@ -46,8 +46,9 @@ bot_name = f"{dispatcher.bot.first_name}"
 
 
 PM_START_TEXT = """
-\n I am Power(https://telegra.ph/file/b2d554241222fa7ea16a5.jpg) 
-I am an Anime themed group management with some fun features.
+\n◍Hey There! [👩‍💼](https://telegra.ph/file/839f01a0dd2063dd52722.jpg) 
+I aᴍ Power
+◍ I am Advanced Group Management Bot with some fun features
 ────────────────────────
 × Uᴘᴛɪᴍᴇ: {}
 ────────────────────────
@@ -56,7 +57,7 @@ I am an Anime themed group management with some fun features.
 
 buttons = [
      [
-        InlineKeyboardButton(text="➕ ADD Me TO YOUR GROUP ➕", url="t.me/chizuru_mizuhara_robot?startgroup=true"),   
+        InlineKeyboardButton(text="➕ ADD Me TO YOUR GROUP ➕", url="t.me/https://t.me/Power_Superbot?startgroup=true"),   
     ],
     [
         InlineKeyboardButton(text=" About Me ❄️ ", url=f"https://t.me/tpxsupport404"),
